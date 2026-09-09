@@ -11,6 +11,11 @@ retrieval:
   dimensions: 384
   top_k: 5
   minimum_score: 0.25
+generation:
+  model: google/flan-t5-base
+  max_input_tokens: 512
+  max_output_tokens: 180
+  evidence_gate_score: 0.52
 reconciliation:
   amount_tolerance: 0.01
   date_tolerance_days: 1

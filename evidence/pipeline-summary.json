@@ -1,5 +1,5 @@
 {
-  "run_id": "b04e6096-fee3-4940-88c3-1eb83cae84b2",
+  "run_id": "cf15ab58-617e-487b-9107-c212f14fb9ad",
   "status": "passed",
   "manual_pages": 439,
   "indexed_passages": 1128,
@@ -26,6 +26,13 @@
   "retrieval_questions": 10,
   "hit_rate_at_5": 1.0,
   "mean_reciprocal_rank": 0.85,
-  "started_at": "2026-09-09T17:05:26.884590+00:00",
-  "completed_at": "2026-09-09T17:05:43.599790+00:00"
+  "generation_model": "google/flan-t5-base",
+  "generation_questions": 10,
+  "citation_accuracy": 1.0,
+  "key_fact_accuracy": 1.0,
+  "mean_answer_context_similarity": 0.7406,
+  "abstention_questions": 5,
+  "correct_abstention_rate": 1.0,
+  "started_at": "2026-09-09T23:04:39.127418+00:00",
+  "completed_at": "2026-09-09T23:07:26.487689+00:00"
 }

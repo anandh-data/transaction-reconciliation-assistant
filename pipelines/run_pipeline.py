@@ -14,7 +14,9 @@ from recon_assistant.database import audit, execute_file, export_exceptions, loa
 from recon_assistant.documents import extract_chunks, file_sha256
 from recon_assistant.embeddings import LocalEmbeddings
 from recon_assistant.evaluation import evaluate_cases
-from recon_assistant.retrieval import grounded_response, search
+from recon_assistant.generation import LocalAnswerGenerator
+from recon_assistant.generation_evaluation import evaluate_generation
+from recon_assistant.retrieval import search
 from recon_assistant.transactions import generate_ledgers
 
 
@@ -35,8 +37,14 @@ def run() -> dict:
     retrieve = lambda question: search(settings.dsn, embedder.query(question), question, settings.top_k)
     evaluation = evaluate_cases(cases, retrieve, ROOT / "evidence/retrieval-evaluation.json")
     store_evaluation(settings.dsn, evaluation)
-    answers = [grounded_response(case["question"], retrieve(case["question"]), settings.minimum_score) for case in cases]
-    (ROOT / "evidence/grounded-answers.json").write_text(json.dumps({"answers": answers}, indent=2) + "\n")
+    generator = LocalAnswerGenerator(settings.generation_model, settings.max_input_tokens, settings.max_output_tokens)
+    generate = lambda question, results: generator.answer(
+        question, results, settings.minimum_score, settings.evidence_gate_score
+    )
+    unsupported = json.loads((ROOT / "evaluation/unsupported_questions.json").read_text())["questions"]
+    generation = evaluate_generation(
+        cases, unsupported, retrieve, generate, embedder, ROOT / "evidence/generation-evaluation.json"
+    )
     exception_rows = export_exceptions(settings.dsn, ROOT / "evidence/reconciliation-exceptions.csv")
     summary = {
         "run_id": run_id, "status": "passed", "manual_pages": pages, "indexed_passages": len(chunks),
@@ -45,6 +53,13 @@ def run() -> dict:
         "reconciliation_results": reconciliation, "exported_exception_rows": exception_rows,
         "retrieval_questions": evaluation["questions"],
         "hit_rate_at_5": evaluation["hit_rate_at_5"], "mean_reciprocal_rank": evaluation["mean_reciprocal_rank"],
+        "generation_model": settings.generation_model,
+        "generation_questions": generation["supported_questions"],
+        "citation_accuracy": generation["citation_accuracy"],
+        "key_fact_accuracy": generation["key_fact_accuracy"],
+        "mean_answer_context_similarity": generation["mean_answer_context_similarity"],
+        "abstention_questions": generation["unsupported_questions"],
+        "correct_abstention_rate": generation["correct_abstention_rate"],
         "started_at": started.isoformat(), "completed_at": datetime.now(timezone.utc).isoformat(),
     }
     audit(settings.dsn, run_id, "pipeline_completed", summary)

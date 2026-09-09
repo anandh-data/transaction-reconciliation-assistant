@@ -1,4 +1,5 @@
 from recon_assistant.retrieval import SearchResult, expand_domain_terms, grounded_response
+from recon_assistant.generation import LocalAnswerGenerator
 
 
 def test_domain_abbreviations_are_expanded():
@@ -19,3 +20,10 @@ def test_response_preserves_page_and_chunk_citations():
     assert response["grounded"] is True
     assert response["citations"][0]["page"] == 61
     assert response["citations"][0]["chunk_id"] == "c1"
+
+
+def test_generation_evidence_gate_abstains_without_loading_model():
+    generator = LocalAnswerGenerator.__new__(LocalAnswerGenerator)
+    weak = [SearchResult("c1", 10, "Section", "Marginal context", 0.50)]
+    response = generator.answer("question", weak, 0.25, 0.52)
+    assert response["grounded"] is False

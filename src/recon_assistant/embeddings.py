@@ -9,8 +9,8 @@ class LocalEmbeddings:
         self.model_name = model_name
         self.model = SentenceTransformer(model_name)
 
-    def documents(self, texts: list[str], batch_size: int = 64) -> np.ndarray:
-        return self.model.encode(texts, batch_size=batch_size, normalize_embeddings=True, show_progress_bar=True)
+    def documents(self, texts: list[str], batch_size: int = 64, show_progress: bool = True) -> np.ndarray:
+        return self.model.encode(texts, batch_size=batch_size, normalize_embeddings=True, show_progress_bar=show_progress)
 
     def query(self, text: str) -> list[float]:
         return self.model.encode([text], normalize_embeddings=True)[0].tolist()

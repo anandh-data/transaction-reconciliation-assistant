@@ -1,12 +1,12 @@
 {"questions":[
-{"question_id":"Q01","question":"What customer information must a bank obtain when opening an account under the Customer Identification Program?","expected_pages":[53,54,55,56]},
-{"question_id":"Q02","question":"What records must a beneficiary bank retain for a funds transfer of $3,000 or more?","expected_pages":[114,115,116,117]},
-{"question_id":"Q03","question":"What is the purpose of suspicious activity monitoring and reporting?","expected_pages":[68,69,70,71]},
-{"question_id":"Q04","question":"When is a Currency Transaction Report required for large cash transactions?","expected_pages":[87,88,89]},
-{"question_id":"Q05","question":"What should independent BSA AML testing cover?","expected_pages":[35,36,37,38]},
-{"question_id":"Q06","question":"How should transaction testing samples be selected during a CIP examination?","expected_pages":[60,61,62,63]},
-{"question_id":"Q07","question":"What is structuring and why is it prohibited?","expected_pages":[361,362,363]},
-{"question_id":"Q08","question":"What information must banks record when customers purchase monetary instruments with currency?","expected_pages":[107,108,109,110]},
-{"question_id":"Q09","question":"What controls should banks use to manage suspicious activity alerts?","expected_pages":[69,70,71,72,73,74]},
-{"question_id":"Q10","question":"How long must required BSA records be retained?","expected_pages":[396,397,398,399,400,401]}
+{"question_id":"Q01","question":"What customer information must a bank obtain when opening an account under the Customer Identification Program?","expected_pages":[53,54,55,56],"required_terms":["name","address","taxpayer identification number","date of birth"]},
+{"question_id":"Q02","question":"What records must a beneficiary bank retain for a funds transfer of $3,000 or more?","expected_pages":[114,115,116,117],"required_terms":["payment order"]},
+{"question_id":"Q03","question":"What is the purpose of suspicious activity monitoring and reporting?","expected_pages":[68,69,70,71],"required_terms":["terrorism","money laundering"]},
+{"question_id":"Q04","question":"When is a Currency Transaction Report required for large cash transactions?","expected_pages":[87,88,89],"required_terms":["$10,000"]},
+{"question_id":"Q05","question":"What should independent BSA AML testing cover?","expected_pages":[35,36,37,38],"required_terms":["adequacy","effectiveness"]},
+{"question_id":"Q06","question":"How should transaction testing samples be selected during a CIP examination?","expected_pages":[60,61,62,63],"required_terms":["risk assessment","cross-section"]},
+{"question_id":"Q07","question":"What is structuring and why is it prohibited?","expected_pages":[361,362,363],"required_terms":["one or more transactions","reporting"]},
+{"question_id":"Q08","question":"What information must banks record when customers purchase monetary instruments with currency?","expected_pages":[107,108,109,110],"required_terms":["name","date of purchase","serial numbers","dollar amounts"]},
+{"question_id":"Q09","question":"What controls should banks use to manage suspicious activity alerts?","expected_pages":[69,70,71,72,73,74],"required_terms":["limited access","thresholds"]},
+{"question_id":"Q10","question":"How long must required BSA records be retained?","expected_pages":[396,397,398,399,400,401],"required_terms":["five years"]}
 ]}

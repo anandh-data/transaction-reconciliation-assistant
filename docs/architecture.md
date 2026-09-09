@@ -6,4 +6,4 @@ Search combines the top 25 cosine-similarity matches with the top 25 PostgreSQL 
 
 PostgreSQL with pgvector was selected instead of a separate vector database because transactions, exceptions, passages, evaluations, and audit events can share one governed datastore and one backup/access-control model.
 
-The response composer is extractive. It returns the strongest retrieved passages rather than calling an external generative model. That makes every statement traceable, avoids API credentials and cost, and prevents an LLM from changing a reconciliation result.
+FLAN-T5-base generates a short answer from the three strongest passages. The model runs locally, so the workflow requires no API key. Citations come from stored retrieval metadata rather than model output. A separate evidence threshold blocks generation when retrieval is weak; the LLM never changes the deterministic reconciliation result.

@@ -20,6 +20,10 @@ class Settings:
     dimensions: int
     top_k: int
     minimum_score: float
+    generation_model: str
+    max_input_tokens: int
+    max_output_tokens: int
+    evidence_gate_score: float
     amount_tolerance: float
     date_tolerance_days: int
     dsn: str
@@ -46,6 +50,10 @@ def load_settings(root: Path) -> Settings:
         dimensions=int(raw["retrieval"]["dimensions"]),
         top_k=int(raw["retrieval"]["top_k"]),
         minimum_score=float(raw["retrieval"]["minimum_score"]),
+        generation_model=raw["generation"]["model"],
+        max_input_tokens=int(raw["generation"]["max_input_tokens"]),
+        max_output_tokens=int(raw["generation"]["max_output_tokens"]),
+        evidence_gate_score=float(raw["generation"]["evidence_gate_score"]),
         amount_tolerance=float(raw["reconciliation"]["amount_tolerance"]),
         date_tolerance_days=int(raw["reconciliation"]["date_tolerance_days"]),
         dsn=dsn,

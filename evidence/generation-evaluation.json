@@ -1,0 +1,339 @@
+{
+  "supported_questions": 10,
+  "unsupported_questions": 5,
+  "citation_accuracy": 1.0,
+  "key_fact_accuracy": 1.0,
+  "mean_answer_context_similarity": 0.7406,
+  "correct_abstention_rate": 1.0,
+  "supported_results": [
+    {
+      "question": "What customer information must a bank obtain when opening an account under the Customer Identification Program?",
+      "answer": "Name, address, taxpayer identification number (TIN), and date of birth, for individuals.",
+      "citations": [
+        {
+          "page": 60,
+          "chunk_id": "p0060-c000-76d0562fde",
+          "score": 0.8292,
+          "section": "Customer Identification Program \u2014 Examination Procedures Examination Procedures Customer Identification Program Objective"
+        },
+        {
+          "page": 55,
+          "chunk_id": "p0055-c000-90d8e0486a",
+          "score": 0.7666,
+          "section": "Customer Identification Program \u2014 Overview Customer Information Required The CIP must contain account-opening procedures detailing the identifying information that must be obtained"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.5276,
+      "key_facts_present": true
+    },
+    {
+      "question": "What records must a beneficiary bank retain for a funds transfer of $3,000 or more?",
+      "answer": "Amount of the payment order.",
+      "citations": [
+        {
+          "page": 115,
+          "chunk_id": "p0115-c000-2513350042",
+          "score": 0.7679,
+          "section": "Funds Transfers Recordkeeping \u2014 Overview Responsibilities of Beneficiary\u2019s Banks Recordkeeping Requirements For each payment order of $3,000 or more that a bank accepts as a benefi"
+        },
+        {
+          "page": 112,
+          "chunk_id": "p0112-c000-20615d025f",
+          "score": 0.7209,
+          "section": "Funds Transfers Recordkeeping \u2014 Overview Responsibilities of Originator\u2019s Banks Recordkeeping Requirements For each payment order in the amount of $3,000 or more that a bank accept"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.4508,
+      "key_facts_present": true
+    },
+    {
+      "question": "What is the purpose of suspicious activity monitoring and reporting?",
+      "answer": "Assess the bank\u2019s policies, procedures, and processes, and overall compliance with statutory and regulatory requirements for monitoring, detecting, and reporting suspicious activities. Suspicious activity reporting forms the cornerstone of the BSA reporting system. It is critical to the United States\u2019 ability to utilize financial information to combat terrorism, terrorist financing, money laundering, and other financial crimes.",
+      "citations": [
+        {
+          "page": 68,
+          "chunk_id": "p0068-c000-ba1ca81a2e",
+          "score": 0.6253,
+          "section": "Suspicious Activity Reporting \u2014 Overview Suspicious Activity Reporting \u2014 Overview Objective"
+        },
+        {
+          "page": 76,
+          "chunk_id": "p0076-c000-52887917e7",
+          "score": 0.615,
+          "section": "Suspicious Activity Reporting \u2014 Overview organization\u2019s ability to detect suspicious activity, and thus minimize the potential for financial losses, increased legal or compliance e"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.8872,
+      "key_facts_present": true
+    },
+    {
+      "question": "When is a Currency Transaction Report required for large cash transactions?",
+      "answer": "A bank must file a Currency Transaction Report (CTR) (FinCEN Form 104) for each transaction in currency76 (deposit, withdrawal, exchange, or other payment or transfer) of more than $10,000 by, through, or to the bank. Certain types of currency transactions need not be reported, such as those involving \u201cexempt persons,\u201d a group which can include retail or commercial customers meeting specific criteria for exemption. Refer to the core overview section, \u201cCurrency Transaction Reporting Exemptions,\u201d pages 90 to 94, for further guidance.",
+      "citations": [
+        {
+          "page": 87,
+          "chunk_id": "p0087-c000-9c5e4475f5",
+          "score": 0.7605,
+          "section": "Currency Transaction Reporting \u2014 Overview Currency Transaction Reporting \u2014 Overview Objective"
+        },
+        {
+          "page": 333,
+          "chunk_id": "p0333-c000-ffb47b7cfd",
+          "score": 0.6683,
+          "section": "Cash-Intensive Businesses \u2014 Overview When conducting a risk assessment of cash-intensive businesses, banks should direct their resources to those accounts that pose the greatest ri"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        87,
+        88,
+        89
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.879,
+      "key_facts_present": true
+    },
+    {
+      "question": "What should independent BSA AML testing cover?",
+      "answer": "The overall adequacy and effectiveness of the BSA/AML compliance program, including policies, procedures, and processes.",
+      "citations": [
+        {
+          "page": 41,
+          "chunk_id": "p0041-c000-1fd3f6ffa7",
+          "score": 0.6527,
+          "section": "BSA/AML Compliance Program \u2014 Examination Procedures \u2022 Train employees to be aware of their responsibilities under the BSA regulations and internal policy guidelines"
+        },
+        {
+          "page": 35,
+          "chunk_id": "p0035-c001-72155847b8",
+          "score": 0.6205,
+          "section": "\uf0b7 Incorporate BSA compliance into the job descriptions and performance evaluations of bank personnel, as appropriate"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.6379,
+      "key_facts_present": true
+    },
+    {
+      "question": "How should transaction testing samples be selected during a CIP examination?",
+      "answer": "On the basis of a risk assessment, prior examination reports, and a review of the bank\u2019s audit findings, select a sample of new accounts opened since the most recent examination. The sample should include a cross-section of accounts (e.g., consumers and businesses, loans and deposits, credit card relationships, and Internet accounts).",
+      "citations": [
+        {
+          "page": 61,
+          "chunk_id": "p0061-c000-f085e9d913",
+          "score": 0.5016,
+          "section": "Customer Identification Program \u2014 Examination Procedures Transaction Testing 7"
+        },
+        {
+          "page": 43,
+          "chunk_id": "p0043-c001-5106b009f5",
+          "score": 0.6608,
+          "section": "\u2022 Documentation of attendance records and training materials"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.7644,
+      "key_facts_present": true
+    },
+    {
+      "question": "What is structuring and why is it prohibited?",
+      "answer": "The definition of structuring, as set forth in 31 CFR 103.11(gg) (which was implemented before a USA PATRIOT Act provision extended the prohibition on structuring to geographic targeting orders and BSA recordkeeping requirements), states, \u201ca person structures a transaction if that person, acting alone, or in conjunction with, or on behalf of, other persons, conducts or attempts to conduct one or more transactions in currency in any amount, at one or less than $10,000. The transactions need not exceed the $10,000 CTR filing threshold at any one bank on any single day in order to constitute structuring. Money launderers and criminals have developed many ways to structure large amounts of currency to evade the CTR or a geographic targeting order reporting requirement.",
+      "citations": [
+        {
+          "page": 361,
+          "chunk_id": "p0361-c001-d92757eac2",
+          "score": 0.5291,
+          "section": "\uf0b7 Structure, as defined above, or attempt to structure or assist in structuring, any transaction with one or more banks"
+        },
+        {
+          "page": 361,
+          "chunk_id": "p0361-c000-b51ebac404",
+          "score": 0.4766,
+          "section": "Appendix G: Structuring Appendix G: Structuring Structuring transactions to evade BSA reporting and certain recordkeeping requirements can result in civil and criminal penalties un"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        361,
+        362,
+        363
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.906,
+      "key_facts_present": true
+    },
+    {
+      "question": "What information must banks record when customers purchase monetary instruments with currency?",
+      "answer": "If the purchaser has a deposit account with the bank: \u2022 Name of the purchaser. \u2022 Date of purchase. \u2022 Types of instruments purchased. \u2022 Serial numbers of each of the instruments bought. \u2022 Dollar amounts. \u2022 Specific identifying information, if applicable.97 96 FinCEN\u2019s Guidance on Interpreting Financial Institution Policies in Relation to Recordkeeping Requirements under 31 CFR 103.29, November 2002, www.fincen.gov.",
+      "citations": [
+        {
+          "page": 108,
+          "chunk_id": "p0108-c001-af6677466a",
+          "score": 0.764,
+          "section": "This requirement applies whether the transaction is conducted in accordance with a bank\u2019s established policy or at the request of the customer"
+        },
+        {
+          "page": 107,
+          "chunk_id": "p0107-c001-237f9eaa60",
+          "score": 0.6954,
+          "section": "Once converted from currency, criminals typically deposit these instruments in accounts with other banks to facilitate the movement of funds through the payment system"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        107,
+        108,
+        109,
+        110
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.8929,
+      "key_facts_present": true
+    },
+    {
+      "question": "What controls should banks use to manage suspicious activity alerts?",
+      "answer": "controls should ensure limited access to the monitoring system. Management should document or be able to explain filtering criteria, thresholds used, and how both are appropriate for the bank\u2019s risks. Monitoring and reporting processes are essential to ensuring that the bank has an adequate and effective BSA compliance program. Appropriate policies, procedures, and processes should be in place to monitor and identify unusual activity.",
+      "citations": [
+        {
+          "page": 75,
+          "chunk_id": "p0075-c000-4e0708ec43",
+          "score": 0.8333,
+          "section": "Suspicious Activity Reporting \u2014 Overview The authority to establish or change expected activity profiles should be clearly defined and should generally require the approval of the "
+        },
+        {
+          "page": 69,
+          "chunk_id": "p0069-c002-e508039cb0",
+          "score": 0.6928,
+          "section": "Proper monitoring and reporting processes are essential to ensuring that the bank has an adequate and effective BSA compliance program"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.7893,
+      "key_facts_present": true
+    },
+    {
+      "question": "How long must required BSA records be retained?",
+      "answer": "A bank must retain the identifying information about a customer for a period of five years after the date the account is closed.",
+      "citations": [
+        {
+          "page": 396,
+          "chunk_id": "p0396-c000-20735a2799",
+          "score": 0.7974,
+          "section": "Appendix P: BSA Record Retention Requirements Appendix P: BSA Record Retention Requirements This appendix is provided as a summary listing"
+        },
+        {
+          "page": 401,
+          "chunk_id": "p0401-c000-f8f326aa59",
+          "score": 0.7159,
+          "section": "Appendix P: BSA Record Retention Requirements \uf0b7 A description of the bank\u2019s resolution of any substantive discrepancy discovered when verifying the identifying information obtained"
+        }
+      ],
+      "grounded": true,
+      "model": "google/flan-t5-base",
+      "expected_pages": [
+        396,
+        397,
+        398,
+        399,
+        400,
+        401
+      ],
+      "citation_correct": true,
+      "answer_context_similarity": 0.6709,
+      "key_facts_present": true
+    }
+  ],
+  "unsupported_results": [
+    {
+      "question": "What is the current federal funds rate?",
+      "answer": "The manual does not provide enough evidence to answer this question.",
+      "citations": [],
+      "grounded": false,
+      "correct_abstention": true
+    },
+    {
+      "question": "Which cryptocurrency should the bank purchase?",
+      "answer": "The manual does not provide enough evidence to answer this question.",
+      "citations": [],
+      "grounded": false,
+      "correct_abstention": true
+    },
+    {
+      "question": "What will the bank's share price be next year?",
+      "answer": "The manual does not provide enough evidence to answer this question.",
+      "citations": [],
+      "grounded": false,
+      "correct_abstention": true
+    },
+    {
+      "question": "How should a customer reset an online banking password?",
+      "answer": "The manual does not provide enough evidence to answer this question.",
+      "citations": [],
+      "grounded": false,
+      "correct_abstention": true
+    },
+    {
+      "question": "What health insurance plan should an employee choose?",
+      "answer": "The manual does not provide enough evidence to answer this question.",
+      "citations": [],
+      "grounded": false,
+      "correct_abstention": true
+    }
+  ]
+}
