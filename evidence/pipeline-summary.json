@@ -1,0 +1,31 @@
+{
+  "run_id": "b04e6096-fee3-4940-88c3-1eb83cae84b2",
+  "status": "passed",
+  "manual_pages": 439,
+  "indexed_passages": 1128,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimensions": 384,
+  "transactions": {
+    "source": 25000,
+    "settlement": 24900
+  },
+  "injected_exceptions": {
+    "missing_settlement": 125,
+    "amount_mismatch": 75,
+    "date_mismatch": 50,
+    "missing_source": 25
+  },
+  "reconciliation_results": {
+    "amount_mismatch": 75,
+    "date_mismatch": 50,
+    "matched": 24750,
+    "missing_settlement": 125,
+    "missing_source": 25
+  },
+  "exported_exception_rows": 275,
+  "retrieval_questions": 10,
+  "hit_rate_at_5": 1.0,
+  "mean_reciprocal_rank": 0.85,
+  "started_at": "2026-09-09T17:05:26.884590+00:00",
+  "completed_at": "2026-09-09T17:05:43.599790+00:00"
+}

@@ -1,0 +1,199 @@
+{
+  "questions": 10,
+  "hit_rate_at_5": 1.0,
+  "mean_reciprocal_rank": 0.85,
+  "results": [
+    {
+      "question_id": "Q01",
+      "question": "What customer information must a bank obtain when opening an account under the Customer Identification Program?",
+      "expected_pages": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "retrieved_pages": [
+        60,
+        55,
+        57,
+        54,
+        58
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q02",
+      "question": "What records must a beneficiary bank retain for a funds transfer of $3,000 or more?",
+      "expected_pages": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "retrieved_pages": [
+        115,
+        112,
+        399,
+        115,
+        111
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q03",
+      "question": "What is the purpose of suspicious activity monitoring and reporting?",
+      "expected_pages": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "retrieved_pages": [
+        68,
+        76,
+        73,
+        69,
+        70
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q04",
+      "question": "When is a Currency Transaction Report required for large cash transactions?",
+      "expected_pages": [
+        87,
+        88,
+        89
+      ],
+      "retrieved_pages": [
+        87,
+        333,
+        336,
+        72,
+        97
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q05",
+      "question": "What should independent BSA AML testing cover?",
+      "expected_pages": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "retrieved_pages": [
+        41,
+        35,
+        17,
+        17,
+        41
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q06",
+      "question": "How should transaction testing samples be selected during a CIP examination?",
+      "expected_pages": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "retrieved_pages": [
+        61,
+        43,
+        18,
+        63,
+        147
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q07",
+      "question": "What is structuring and why is it prohibited?",
+      "expected_pages": [
+        361,
+        362,
+        363
+      ],
+      "retrieved_pages": [
+        361,
+        361,
+        13,
+        268,
+        200
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q08",
+      "question": "What information must banks record when customers purchase monetary instruments with currency?",
+      "expected_pages": [
+        107,
+        108,
+        109,
+        110
+      ],
+      "retrieved_pages": [
+        108,
+        107,
+        110,
+        107,
+        108
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "Q09",
+      "question": "What controls should banks use to manage suspicious activity alerts?",
+      "expected_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "retrieved_pages": [
+        75,
+        69,
+        70,
+        42,
+        83
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "Q10",
+      "question": "How long must required BSA records be retained?",
+      "expected_pages": [
+        396,
+        397,
+        398,
+        399,
+        400,
+        401
+      ],
+      "retrieved_pages": [
+        396,
+        401,
+        158,
+        62,
+        57
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}

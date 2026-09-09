@@ -1,0 +1,276 @@
+transaction_id,status,source_amount,settlement_amount,amount_difference,date_difference_days,reason
+TXN-00000161,amount_mismatch,582.19,607.19,25.0,0.0,amount exceeds configured tolerance
+TXN-00000717,amount_mismatch,742.73,767.73,25.0,0.0,amount exceeds configured tolerance
+TXN-00000766,amount_mismatch,140.64,145.89,5.25,0.0,amount exceeds configured tolerance
+TXN-00000939,amount_mismatch,2003.07,2028.07,25.0,0.0,amount exceeds configured tolerance
+TXN-00002362,amount_mismatch,119.23,124.48,5.25,0.0,amount exceeds configured tolerance
+TXN-00002610,amount_mismatch,151.63,156.88,5.25,0.0,amount exceeds configured tolerance
+TXN-00002943,amount_mismatch,173.08,198.08,25.0,0.0,amount exceeds configured tolerance
+TXN-00003024,amount_mismatch,358.2,383.2,25.0,0.0,amount exceeds configured tolerance
+TXN-00003531,amount_mismatch,101.33,106.58,5.25,0.0,amount exceeds configured tolerance
+TXN-00004876,amount_mismatch,73.87,79.12,5.25,0.0,amount exceeds configured tolerance
+TXN-00004877,amount_mismatch,184.24,209.24,25.0,0.0,amount exceeds configured tolerance
+TXN-00005224,amount_mismatch,606.43,631.43,25.0,0.0,amount exceeds configured tolerance
+TXN-00005476,amount_mismatch,61.12,71.62,10.5,0.0,amount exceeds configured tolerance
+TXN-00005708,amount_mismatch,29.48,39.98,10.5,0.0,amount exceeds configured tolerance
+TXN-00006010,amount_mismatch,655.66,660.91,5.25,0.0,amount exceeds configured tolerance
+TXN-00006585,amount_mismatch,1109.9,1115.15,5.25,0.0,amount exceeds configured tolerance
+TXN-00006770,amount_mismatch,792.2,802.7,10.5,0.0,amount exceeds configured tolerance
+TXN-00006920,amount_mismatch,1351.1,1376.1,25.0,0.0,amount exceeds configured tolerance
+TXN-00007467,amount_mismatch,359.33,384.33,25.0,0.0,amount exceeds configured tolerance
+TXN-00007673,amount_mismatch,633.96,658.96,25.0,0.0,amount exceeds configured tolerance
+TXN-00007778,amount_mismatch,230.28,255.28,25.0,0.0,amount exceeds configured tolerance
+TXN-00007908,amount_mismatch,207.45,232.45,25.0,0.0,amount exceeds configured tolerance
+TXN-00007974,amount_mismatch,24.44,29.69,5.25,0.0,amount exceeds configured tolerance
+TXN-00009415,amount_mismatch,437.17,447.67,10.5,0.0,amount exceeds configured tolerance
+TXN-00009688,amount_mismatch,550.01,555.26,5.25,0.0,amount exceeds configured tolerance
+TXN-00009862,amount_mismatch,5572.54,5577.79,5.25,0.0,amount exceeds configured tolerance
+TXN-00010588,amount_mismatch,387.32,397.82,10.5,0.0,amount exceeds configured tolerance
+TXN-00011966,amount_mismatch,538.22,543.47,5.25,0.0,amount exceeds configured tolerance
+TXN-00012089,amount_mismatch,95.55,120.55,25.0,0.0,amount exceeds configured tolerance
+TXN-00012794,amount_mismatch,149.34,159.84,10.5,0.0,amount exceeds configured tolerance
+TXN-00013584,amount_mismatch,650.08,675.08,25.0,0.0,amount exceeds configured tolerance
+TXN-00014200,amount_mismatch,131.72,156.72,25.0,0.0,amount exceeds configured tolerance
+TXN-00014417,amount_mismatch,94.38,104.88,10.5,0.0,amount exceeds configured tolerance
+TXN-00014541,amount_mismatch,82.49,87.74,5.25,0.0,amount exceeds configured tolerance
+TXN-00014922,amount_mismatch,764.94,775.44,10.5,0.0,amount exceeds configured tolerance
+TXN-00015125,amount_mismatch,73.82,84.32,10.5,0.0,amount exceeds configured tolerance
+TXN-00015173,amount_mismatch,23.18,28.43,5.25,0.0,amount exceeds configured tolerance
+TXN-00015593,amount_mismatch,297.57,302.82,5.25,0.0,amount exceeds configured tolerance
+TXN-00015595,amount_mismatch,202.64,213.14,10.5,0.0,amount exceeds configured tolerance
+TXN-00015597,amount_mismatch,24.68,49.68,25.0,0.0,amount exceeds configured tolerance
+TXN-00016305,amount_mismatch,395.17,400.42,5.25,0.0,amount exceeds configured tolerance
+TXN-00016383,amount_mismatch,56.95,62.2,5.25,0.0,amount exceeds configured tolerance
+TXN-00016469,amount_mismatch,47.41,57.91,10.5,0.0,amount exceeds configured tolerance
+TXN-00017344,amount_mismatch,55.68,80.68,25.0,0.0,amount exceeds configured tolerance
+TXN-00017766,amount_mismatch,49.77,74.77,25.0,0.0,amount exceeds configured tolerance
+TXN-00017821,amount_mismatch,37.46,62.46,25.0,0.0,amount exceeds configured tolerance
+TXN-00018112,amount_mismatch,58.61,83.61,25.0,0.0,amount exceeds configured tolerance
+TXN-00018269,amount_mismatch,1030.56,1055.56,25.0,0.0,amount exceeds configured tolerance
+TXN-00018282,amount_mismatch,251.05,261.55,10.5,0.0,amount exceeds configured tolerance
+TXN-00018407,amount_mismatch,356.53,361.78,5.25,0.0,amount exceeds configured tolerance
+TXN-00018453,amount_mismatch,330.96,336.21,5.25,0.0,amount exceeds configured tolerance
+TXN-00018573,amount_mismatch,1009.44,1034.44,25.0,0.0,amount exceeds configured tolerance
+TXN-00018728,amount_mismatch,331.55,342.05,10.5,0.0,amount exceeds configured tolerance
+TXN-00019090,amount_mismatch,513.98,524.48,10.5,0.0,amount exceeds configured tolerance
+TXN-00019176,amount_mismatch,42.19,52.69,10.5,0.0,amount exceeds configured tolerance
+TXN-00019410,amount_mismatch,36.36,61.36,25.0,0.0,amount exceeds configured tolerance
+TXN-00019580,amount_mismatch,85.68,110.68,25.0,0.0,amount exceeds configured tolerance
+TXN-00020097,amount_mismatch,179.04,204.04,25.0,0.0,amount exceeds configured tolerance
+TXN-00020397,amount_mismatch,42.6,53.1,10.5,0.0,amount exceeds configured tolerance
+TXN-00020891,amount_mismatch,165.82,190.82,25.0,0.0,amount exceeds configured tolerance
+TXN-00020951,amount_mismatch,706.07,731.07,25.0,0.0,amount exceeds configured tolerance
+TXN-00021253,amount_mismatch,1041.56,1052.06,10.5,0.0,amount exceeds configured tolerance
+TXN-00021501,amount_mismatch,414.42,424.92,10.5,0.0,amount exceeds configured tolerance
+TXN-00021665,amount_mismatch,116.29,121.54,5.25,0.0,amount exceeds configured tolerance
+TXN-00021760,amount_mismatch,72.23,77.48,5.25,0.0,amount exceeds configured tolerance
+TXN-00021768,amount_mismatch,388.49,398.99,10.5,0.0,amount exceeds configured tolerance
+TXN-00021996,amount_mismatch,99.79,124.79,25.0,0.0,amount exceeds configured tolerance
+TXN-00022547,amount_mismatch,85.38,95.88,10.5,0.0,amount exceeds configured tolerance
+TXN-00022550,amount_mismatch,354.44,364.94,10.5,0.0,amount exceeds configured tolerance
+TXN-00022621,amount_mismatch,131.11,141.61,10.5,0.0,amount exceeds configured tolerance
+TXN-00023367,amount_mismatch,5420.61,5431.11,10.5,0.0,amount exceeds configured tolerance
+TXN-00024104,amount_mismatch,854.89,879.89,25.0,0.0,amount exceeds configured tolerance
+TXN-00024111,amount_mismatch,741.12,766.12,25.0,0.0,amount exceeds configured tolerance
+TXN-00024209,amount_mismatch,64.36,69.61,5.25,0.0,amount exceeds configured tolerance
+TXN-00024569,amount_mismatch,40.63,65.63,25.0,0.0,amount exceeds configured tolerance
+TXN-00000385,date_mismatch,86.74,86.74,0.0,3.0,posting date exceeds configured tolerance
+TXN-00002203,date_mismatch,248.1,248.1,0.0,3.0,posting date exceeds configured tolerance
+TXN-00003544,date_mismatch,49.24,49.24,0.0,3.0,posting date exceeds configured tolerance
+TXN-00004756,date_mismatch,395.6,395.6,0.0,3.0,posting date exceeds configured tolerance
+TXN-00005220,date_mismatch,374.14,374.14,0.0,3.0,posting date exceeds configured tolerance
+TXN-00005526,date_mismatch,3825.09,3825.09,0.0,3.0,posting date exceeds configured tolerance
+TXN-00005577,date_mismatch,76.82,76.82,0.0,3.0,posting date exceeds configured tolerance
+TXN-00006444,date_mismatch,258.12,258.12,0.0,3.0,posting date exceeds configured tolerance
+TXN-00006487,date_mismatch,927.48,927.48,0.0,3.0,posting date exceeds configured tolerance
+TXN-00007004,date_mismatch,2711.91,2711.91,0.0,3.0,posting date exceeds configured tolerance
+TXN-00007734,date_mismatch,307.14,307.14,0.0,3.0,posting date exceeds configured tolerance
+TXN-00007923,date_mismatch,434.53,434.53,0.0,3.0,posting date exceeds configured tolerance
+TXN-00008181,date_mismatch,867.24,867.24,0.0,3.0,posting date exceeds configured tolerance
+TXN-00008215,date_mismatch,217.01,217.01,0.0,3.0,posting date exceeds configured tolerance
+TXN-00008463,date_mismatch,239.22,239.22,0.0,3.0,posting date exceeds configured tolerance
+TXN-00008492,date_mismatch,101.79,101.79,0.0,3.0,posting date exceeds configured tolerance
+TXN-00008688,date_mismatch,43.15,43.15,0.0,3.0,posting date exceeds configured tolerance
+TXN-00009592,date_mismatch,797.51,797.51,0.0,3.0,posting date exceeds configured tolerance
+TXN-00011363,date_mismatch,528.16,528.16,0.0,3.0,posting date exceeds configured tolerance
+TXN-00011392,date_mismatch,350.37,350.37,0.0,3.0,posting date exceeds configured tolerance
+TXN-00011608,date_mismatch,1355.54,1355.54,0.0,3.0,posting date exceeds configured tolerance
+TXN-00011817,date_mismatch,1209.63,1209.63,0.0,3.0,posting date exceeds configured tolerance
+TXN-00012412,date_mismatch,261.13,261.13,0.0,3.0,posting date exceeds configured tolerance
+TXN-00012587,date_mismatch,214.49,214.49,0.0,3.0,posting date exceeds configured tolerance
+TXN-00013156,date_mismatch,50.42,50.42,0.0,3.0,posting date exceeds configured tolerance
+TXN-00013361,date_mismatch,126.04,126.04,0.0,3.0,posting date exceeds configured tolerance
+TXN-00014422,date_mismatch,588.75,588.75,0.0,3.0,posting date exceeds configured tolerance
+TXN-00014458,date_mismatch,132.82,132.82,0.0,3.0,posting date exceeds configured tolerance
+TXN-00015229,date_mismatch,1902.76,1902.76,0.0,3.0,posting date exceeds configured tolerance
+TXN-00015231,date_mismatch,60.33,60.33,0.0,3.0,posting date exceeds configured tolerance
+TXN-00016055,date_mismatch,306.81,306.81,0.0,3.0,posting date exceeds configured tolerance
+TXN-00017092,date_mismatch,285.94,285.94,0.0,3.0,posting date exceeds configured tolerance
+TXN-00017492,date_mismatch,98.83,98.83,0.0,3.0,posting date exceeds configured tolerance
+TXN-00017712,date_mismatch,179.33,179.33,0.0,3.0,posting date exceeds configured tolerance
+TXN-00018520,date_mismatch,194.7,194.7,0.0,3.0,posting date exceeds configured tolerance
+TXN-00018692,date_mismatch,596.24,596.24,0.0,3.0,posting date exceeds configured tolerance
+TXN-00018748,date_mismatch,609.49,609.49,0.0,3.0,posting date exceeds configured tolerance
+TXN-00020123,date_mismatch,140.86,140.86,0.0,3.0,posting date exceeds configured tolerance
+TXN-00020296,date_mismatch,280.36,280.36,0.0,3.0,posting date exceeds configured tolerance
+TXN-00020902,date_mismatch,137.66,137.66,0.0,3.0,posting date exceeds configured tolerance
+TXN-00020986,date_mismatch,228.11,228.11,0.0,3.0,posting date exceeds configured tolerance
+TXN-00021546,date_mismatch,354.02,354.02,0.0,3.0,posting date exceeds configured tolerance
+TXN-00021608,date_mismatch,191.0,191.0,0.0,3.0,posting date exceeds configured tolerance
+TXN-00023291,date_mismatch,144.53,144.53,0.0,3.0,posting date exceeds configured tolerance
+TXN-00023504,date_mismatch,705.98,705.98,0.0,3.0,posting date exceeds configured tolerance
+TXN-00023645,date_mismatch,129.02,129.02,0.0,3.0,posting date exceeds configured tolerance
+TXN-00023685,date_mismatch,81.97,81.97,0.0,3.0,posting date exceeds configured tolerance
+TXN-00023983,date_mismatch,134.2,134.2,0.0,3.0,posting date exceeds configured tolerance
+TXN-00024482,date_mismatch,178.45,178.45,0.0,3.0,posting date exceeds configured tolerance
+TXN-00024716,date_mismatch,273.64,273.64,0.0,3.0,posting date exceeds configured tolerance
+TXN-00000317,missing_settlement,43.57,,,,transaction absent from settlement ledger
+TXN-00000348,missing_settlement,362.5,,,,transaction absent from settlement ledger
+TXN-00000410,missing_settlement,76.41,,,,transaction absent from settlement ledger
+TXN-00000697,missing_settlement,22.4,,,,transaction absent from settlement ledger
+TXN-00000883,missing_settlement,391.04,,,,transaction absent from settlement ledger
+TXN-00000911,missing_settlement,317.74,,,,transaction absent from settlement ledger
+TXN-00001124,missing_settlement,390.25,,,,transaction absent from settlement ledger
+TXN-00001129,missing_settlement,417.51,,,,transaction absent from settlement ledger
+TXN-00001502,missing_settlement,247.28,,,,transaction absent from settlement ledger
+TXN-00001616,missing_settlement,195.53,,,,transaction absent from settlement ledger
+TXN-00002220,missing_settlement,2169.4,,,,transaction absent from settlement ledger
+TXN-00002355,missing_settlement,80.33,,,,transaction absent from settlement ledger
+TXN-00002519,missing_settlement,746.05,,,,transaction absent from settlement ledger
+TXN-00002684,missing_settlement,844.78,,,,transaction absent from settlement ledger
+TXN-00002722,missing_settlement,386.95,,,,transaction absent from settlement ledger
+TXN-00002852,missing_settlement,16.32,,,,transaction absent from settlement ledger
+TXN-00003742,missing_settlement,515.85,,,,transaction absent from settlement ledger
+TXN-00003766,missing_settlement,533.01,,,,transaction absent from settlement ledger
+TXN-00003993,missing_settlement,247.51,,,,transaction absent from settlement ledger
+TXN-00004038,missing_settlement,124.2,,,,transaction absent from settlement ledger
+TXN-00004681,missing_settlement,3995.12,,,,transaction absent from settlement ledger
+TXN-00004921,missing_settlement,195.58,,,,transaction absent from settlement ledger
+TXN-00005065,missing_settlement,3183.18,,,,transaction absent from settlement ledger
+TXN-00005155,missing_settlement,909.48,,,,transaction absent from settlement ledger
+TXN-00005384,missing_settlement,175.04,,,,transaction absent from settlement ledger
+TXN-00005479,missing_settlement,278.09,,,,transaction absent from settlement ledger
+TXN-00005646,missing_settlement,256.54,,,,transaction absent from settlement ledger
+TXN-00006027,missing_settlement,343.35,,,,transaction absent from settlement ledger
+TXN-00006066,missing_settlement,108.35,,,,transaction absent from settlement ledger
+TXN-00006097,missing_settlement,96.66,,,,transaction absent from settlement ledger
+TXN-00006109,missing_settlement,80.56,,,,transaction absent from settlement ledger
+TXN-00006237,missing_settlement,476.23,,,,transaction absent from settlement ledger
+TXN-00006374,missing_settlement,96.32,,,,transaction absent from settlement ledger
+TXN-00006510,missing_settlement,348.44,,,,transaction absent from settlement ledger
+TXN-00006811,missing_settlement,222.38,,,,transaction absent from settlement ledger
+TXN-00007221,missing_settlement,116.66,,,,transaction absent from settlement ledger
+TXN-00007860,missing_settlement,250.32,,,,transaction absent from settlement ledger
+TXN-00008214,missing_settlement,367.92,,,,transaction absent from settlement ledger
+TXN-00008276,missing_settlement,138.85,,,,transaction absent from settlement ledger
+TXN-00008393,missing_settlement,452.85,,,,transaction absent from settlement ledger
+TXN-00008792,missing_settlement,481.0,,,,transaction absent from settlement ledger
+TXN-00008886,missing_settlement,73.32,,,,transaction absent from settlement ledger
+TXN-00008909,missing_settlement,295.79,,,,transaction absent from settlement ledger
+TXN-00009024,missing_settlement,41.46,,,,transaction absent from settlement ledger
+TXN-00009452,missing_settlement,35.81,,,,transaction absent from settlement ledger
+TXN-00009457,missing_settlement,134.66,,,,transaction absent from settlement ledger
+TXN-00009519,missing_settlement,39.98,,,,transaction absent from settlement ledger
+TXN-00010210,missing_settlement,209.89,,,,transaction absent from settlement ledger
+TXN-00010366,missing_settlement,183.62,,,,transaction absent from settlement ledger
+TXN-00010821,missing_settlement,729.41,,,,transaction absent from settlement ledger
+TXN-00010960,missing_settlement,1358.02,,,,transaction absent from settlement ledger
+TXN-00011026,missing_settlement,210.02,,,,transaction absent from settlement ledger
+TXN-00011243,missing_settlement,154.1,,,,transaction absent from settlement ledger
+TXN-00011378,missing_settlement,23.63,,,,transaction absent from settlement ledger
+TXN-00012438,missing_settlement,370.56,,,,transaction absent from settlement ledger
+TXN-00012483,missing_settlement,192.21,,,,transaction absent from settlement ledger
+TXN-00012531,missing_settlement,74.98,,,,transaction absent from settlement ledger
+TXN-00013092,missing_settlement,1652.93,,,,transaction absent from settlement ledger
+TXN-00013296,missing_settlement,95.66,,,,transaction absent from settlement ledger
+TXN-00013485,missing_settlement,162.11,,,,transaction absent from settlement ledger
+TXN-00013707,missing_settlement,225.22,,,,transaction absent from settlement ledger
+TXN-00013765,missing_settlement,75.19,,,,transaction absent from settlement ledger
+TXN-00013866,missing_settlement,2916.0,,,,transaction absent from settlement ledger
+TXN-00013919,missing_settlement,166.66,,,,transaction absent from settlement ledger
+TXN-00014126,missing_settlement,36.48,,,,transaction absent from settlement ledger
+TXN-00014213,missing_settlement,802.97,,,,transaction absent from settlement ledger
+TXN-00014261,missing_settlement,69.96,,,,transaction absent from settlement ledger
+TXN-00014546,missing_settlement,695.24,,,,transaction absent from settlement ledger
+TXN-00015082,missing_settlement,245.94,,,,transaction absent from settlement ledger
+TXN-00015145,missing_settlement,834.61,,,,transaction absent from settlement ledger
+TXN-00015158,missing_settlement,215.78,,,,transaction absent from settlement ledger
+TXN-00015459,missing_settlement,134.67,,,,transaction absent from settlement ledger
+TXN-00015865,missing_settlement,88.98,,,,transaction absent from settlement ledger
+TXN-00015879,missing_settlement,156.72,,,,transaction absent from settlement ledger
+TXN-00015880,missing_settlement,229.02,,,,transaction absent from settlement ledger
+TXN-00015898,missing_settlement,65.1,,,,transaction absent from settlement ledger
+TXN-00015912,missing_settlement,58.7,,,,transaction absent from settlement ledger
+TXN-00016034,missing_settlement,381.19,,,,transaction absent from settlement ledger
+TXN-00016294,missing_settlement,39.95,,,,transaction absent from settlement ledger
+TXN-00016758,missing_settlement,1387.63,,,,transaction absent from settlement ledger
+TXN-00016954,missing_settlement,439.69,,,,transaction absent from settlement ledger
+TXN-00017033,missing_settlement,902.06,,,,transaction absent from settlement ledger
+TXN-00017146,missing_settlement,363.29,,,,transaction absent from settlement ledger
+TXN-00017157,missing_settlement,268.71,,,,transaction absent from settlement ledger
+TXN-00017289,missing_settlement,77.57,,,,transaction absent from settlement ledger
+TXN-00017639,missing_settlement,788.4,,,,transaction absent from settlement ledger
+TXN-00017698,missing_settlement,137.42,,,,transaction absent from settlement ledger
+TXN-00017979,missing_settlement,514.82,,,,transaction absent from settlement ledger
+TXN-00018027,missing_settlement,508.89,,,,transaction absent from settlement ledger
+TXN-00018052,missing_settlement,116.14,,,,transaction absent from settlement ledger
+TXN-00018170,missing_settlement,111.56,,,,transaction absent from settlement ledger
+TXN-00018420,missing_settlement,215.67,,,,transaction absent from settlement ledger
+TXN-00018725,missing_settlement,344.0,,,,transaction absent from settlement ledger
+TXN-00019013,missing_settlement,44.65,,,,transaction absent from settlement ledger
+TXN-00019083,missing_settlement,71.19,,,,transaction absent from settlement ledger
+TXN-00019725,missing_settlement,57.96,,,,transaction absent from settlement ledger
+TXN-00019937,missing_settlement,101.42,,,,transaction absent from settlement ledger
+TXN-00020569,missing_settlement,2562.56,,,,transaction absent from settlement ledger
+TXN-00020749,missing_settlement,1475.47,,,,transaction absent from settlement ledger
+TXN-00020806,missing_settlement,1014.06,,,,transaction absent from settlement ledger
+TXN-00020952,missing_settlement,409.79,,,,transaction absent from settlement ledger
+TXN-00021054,missing_settlement,83.28,,,,transaction absent from settlement ledger
+TXN-00021148,missing_settlement,1134.31,,,,transaction absent from settlement ledger
+TXN-00021483,missing_settlement,329.2,,,,transaction absent from settlement ledger
+TXN-00021756,missing_settlement,161.33,,,,transaction absent from settlement ledger
+TXN-00021856,missing_settlement,250.74,,,,transaction absent from settlement ledger
+TXN-00021973,missing_settlement,29.84,,,,transaction absent from settlement ledger
+TXN-00022362,missing_settlement,267.23,,,,transaction absent from settlement ledger
+TXN-00022501,missing_settlement,22.93,,,,transaction absent from settlement ledger
+TXN-00022684,missing_settlement,172.84,,,,transaction absent from settlement ledger
+TXN-00022755,missing_settlement,135.94,,,,transaction absent from settlement ledger
+TXN-00022866,missing_settlement,92.66,,,,transaction absent from settlement ledger
+TXN-00023096,missing_settlement,110.06,,,,transaction absent from settlement ledger
+TXN-00023417,missing_settlement,104.42,,,,transaction absent from settlement ledger
+TXN-00023612,missing_settlement,61.92,,,,transaction absent from settlement ledger
+TXN-00024041,missing_settlement,77.78,,,,transaction absent from settlement ledger
+TXN-00024062,missing_settlement,112.64,,,,transaction absent from settlement ledger
+TXN-00024157,missing_settlement,60.09,,,,transaction absent from settlement ledger
+TXN-00024315,missing_settlement,1693.42,,,,transaction absent from settlement ledger
+TXN-00024572,missing_settlement,898.1,,,,transaction absent from settlement ledger
+TXN-00024632,missing_settlement,189.59,,,,transaction absent from settlement ledger
+TXN-00024685,missing_settlement,233.74,,,,transaction absent from settlement ledger
+TXN-00024756,missing_settlement,107.15,,,,transaction absent from settlement ledger
+TXN-00024859,missing_settlement,118.27,,,,transaction absent from settlement ledger
+TXN-00024874,missing_settlement,207.53,,,,transaction absent from settlement ledger
+SETTLEMENT-ONLY-0001,missing_source,,198.55,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0002,missing_source,,349.81,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0003,missing_source,,136.17,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0004,missing_source,,1156.56,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0005,missing_source,,531.33,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0006,missing_source,,40.45,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0007,missing_source,,74.8,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0008,missing_source,,46.14,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0009,missing_source,,104.22,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0010,missing_source,,85.78,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0011,missing_source,,862.5,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0012,missing_source,,316.07,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0013,missing_source,,1380.11,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0014,missing_source,,113.91,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0015,missing_source,,35.93,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0016,missing_source,,233.39,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0017,missing_source,,1143.7,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0018,missing_source,,69.0,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0019,missing_source,,58.26,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0020,missing_source,,433.36,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0021,missing_source,,154.87,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0022,missing_source,,322.12,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0023,missing_source,,45.19,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0024,missing_source,,138.19,,,transaction absent from source ledger
+SETTLEMENT-ONLY-0025,missing_source,,370.22,,,transaction absent from source ledger

@@ -1,0 +1,374 @@
+{
+  "answers": [
+    {
+      "question": "What customer information must a bank obtain when opening an account under the Customer Identification Program?",
+      "answer": "Customer Identification Program \u2014 Examination Procedures Examination Procedures Customer Identification Program Objective. Assess the bank\u2019s compliance with the statutory and regulatory requirements for the Customer Identification Program (CIP). 1. Verify that the bank\u2019s policies, procedures, and processes include a comprehensive program for identifying cust Customer Identification Program \u2014 Overview Customer Information Required The CIP must contain account-opening procedures detailing the identifying information that must be obtained from each customer.45 At a minimum, the bank must obtain the following identifying information from each customer before opening the account:46 \uf0b7 Name. \uf0b7 Date of birth for individ",
+      "citations": [
+        {
+          "page": 60,
+          "chunk_id": "p0060-c000-76d0562fde",
+          "score": 0.8292,
+          "section": "Customer Identification Program \u2014 Examination Procedures Examination Procedures Customer Identification Program Objective"
+        },
+        {
+          "page": 55,
+          "chunk_id": "p0055-c000-90d8e0486a",
+          "score": 0.7666,
+          "section": "Customer Identification Program \u2014 Overview Customer Information Required The CIP must contain account-opening procedures detailing the identifying information that must be obtained"
+        },
+        {
+          "page": 57,
+          "chunk_id": "p0057-c000-12ffb31000",
+          "score": 0.7595,
+          "section": "Customer Identification Program \u2014 Overview identity of a sole proprietor or the principals in a partnership when the bank cannot otherwise satisfactorily identify the sole propriet"
+        },
+        {
+          "page": 54,
+          "chunk_id": "p0054-c000-23e76aedfc",
+          "score": 0.7498,
+          "section": "Customer Identification Program \u2014 Overview \uf0b7 The bank\u2019s methods of opening accounts"
+        },
+        {
+          "page": 58,
+          "chunk_id": "p0058-c000-5771b1a0d6",
+          "score": 0.747,
+          "section": "Customer Identification Program \u2014 Overview \uf0b7 The method and the results of any measures undertaken to verify identity"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "What records must a beneficiary bank retain for a funds transfer of $3,000 or more?",
+      "answer": "Funds Transfers Recordkeeping \u2014 Overview Responsibilities of Beneficiary\u2019s Banks Recordkeeping Requirements For each payment order of $3,000 or more that a bank accepts as a beneficiary\u2019s bank, the bank must retain a record of the payment order. If the beneficiary is not an established customer of the bank, the beneficiary\u2019s institution must retain the follo Funds Transfers Recordkeeping \u2014 Overview Responsibilities of Originator\u2019s Banks Recordkeeping Requirements For each payment order in the amount of $3,000 or more that a bank accepts as an originator\u2019s bank, the bank must obtain and retain the following records (31 CFR 103.33(e)(1)(i)): \uf0b7 Name and address of the originator. \uf0b7 Amount of the payment order. \uf0b7 Da",
+      "citations": [
+        {
+          "page": 115,
+          "chunk_id": "p0115-c000-2513350042",
+          "score": 0.7679,
+          "section": "Funds Transfers Recordkeeping \u2014 Overview Responsibilities of Beneficiary\u2019s Banks Recordkeeping Requirements For each payment order of $3,000 or more that a bank accepts as a benefi"
+        },
+        {
+          "page": 112,
+          "chunk_id": "p0112-c000-20615d025f",
+          "score": 0.7209,
+          "section": "Funds Transfers Recordkeeping \u2014 Overview Responsibilities of Originator\u2019s Banks Recordkeeping Requirements For each payment order in the amount of $3,000 or more that a bank accept"
+        },
+        {
+          "page": 399,
+          "chunk_id": "p0399-c000-e3ba8ae611",
+          "score": 0.6987,
+          "section": "Appendix P: BSA Record Retention Requirements \u2022 Name and address of the beneficiary"
+        },
+        {
+          "page": 115,
+          "chunk_id": "p0115-c001-05f52b59a7",
+          "score": 0.693,
+          "section": "Proceeds Not Delivered in Person If proceeds are not delivered in person, the institution must retain a copy of the check or other instrument used to effect the payment, or the ins"
+        },
+        {
+          "page": 111,
+          "chunk_id": "p0111-c001-86a9530ddf",
+          "score": 0.685,
+          "section": "Treasury and the Federal Reserve Board to prescribe regulations for domestic and international funds transfers"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "What is the purpose of suspicious activity monitoring and reporting?",
+      "answer": "Suspicious Activity Reporting \u2014 Overview Suspicious Activity Reporting \u2014 Overview Objective. Assess the bank\u2019s policies, procedures, and processes, and overall compliance with statutory and regulatory requirements for monitoring, detecting, and reporting suspicious activities. Suspicious activity reporting forms the cornerstone of the BSA reporting system. I Suspicious Activity Reporting \u2014 Overview organization\u2019s ability to detect suspicious activity, and thus minimize the potential for financial losses, increased legal or compliance expenses, and reputational risk to the organization. Refer to the expanded overview section, \u201cBSA/AML Compliance Program Structures,\u201d pages 160 to 165, for further guidance. Identif",
+      "citations": [
+        {
+          "page": 68,
+          "chunk_id": "p0068-c000-ba1ca81a2e",
+          "score": 0.6253,
+          "section": "Suspicious Activity Reporting \u2014 Overview Suspicious Activity Reporting \u2014 Overview Objective"
+        },
+        {
+          "page": 76,
+          "chunk_id": "p0076-c000-52887917e7",
+          "score": 0.615,
+          "section": "Suspicious Activity Reporting \u2014 Overview organization\u2019s ability to detect suspicious activity, and thus minimize the potential for financial losses, increased legal or compliance e"
+        },
+        {
+          "page": 73,
+          "chunk_id": "p0073-c002-b518479148",
+          "score": 0.6132,
+          "section": "A periodic review of these records can also help identify frequent purchasers of monetary instruments and common payees"
+        },
+        {
+          "page": 69,
+          "chunk_id": "p0069-c002-e508039cb0",
+          "score": 0.6131,
+          "section": "Proper monitoring and reporting processes are essential to ensuring that the bank has an adequate and effective BSA compliance program"
+        },
+        {
+          "page": 70,
+          "chunk_id": "p0070-c001-12e34acf93",
+          "score": 0.6103,
+          "section": "Identification of Unusual Activity Banks use a number of methods to identify potentially suspicious activity, including but not limited to activity identified by employees during d"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "When is a Currency Transaction Report required for large cash transactions?",
+      "answer": "Currency Transaction Reporting \u2014 Overview Currency Transaction Reporting \u2014 Overview Objective. Assess the bank\u2019s compliance with statutory and regulatory requirements for the reporting of large currency transactions. A bank must file a Currency Transaction Report (CTR) (FinCEN Form 104) for each transaction in currency76 (deposit, withdrawal, exchange, or ot Cash-Intensive Businesses \u2014 Overview When conducting a risk assessment of cash-intensive businesses, banks should direct their resources to those accounts that pose the greatest risk of money laundering or terrorist financing. The following factors may be used to identify the risks: \uf0b7 Purpose of the account. \uf0b7 Volume, frequency, and nature of currency transa",
+      "citations": [
+        {
+          "page": 87,
+          "chunk_id": "p0087-c000-9c5e4475f5",
+          "score": 0.7605,
+          "section": "Currency Transaction Reporting \u2014 Overview Currency Transaction Reporting \u2014 Overview Objective"
+        },
+        {
+          "page": 333,
+          "chunk_id": "p0333-c000-ffb47b7cfd",
+          "score": 0.6683,
+          "section": "Cash-Intensive Businesses \u2014 Overview When conducting a risk assessment of cash-intensive businesses, banks should direct their resources to those accounts that pose the greatest ri"
+        },
+        {
+          "page": 336,
+          "chunk_id": "p0336-c000-80997e225a",
+          "score": 0.6646,
+          "section": "Appendix A: BSA Laws and Regulations 31 CFR 103"
+        },
+        {
+          "page": 72,
+          "chunk_id": "p0072-c002-daf1f426ec",
+          "score": 0.6606,
+          "section": "Upon identification of unusual activity, assigned personnel should review CDD and other pertinent information to determine whether the activity is suspicious"
+        },
+        {
+          "page": 97,
+          "chunk_id": "p0097-c000-07d973336b",
+          "score": 0.6571,
+          "section": "Currency Transaction Reporting Exemptions \u2014 Examination Procedures \u2022 Have frequent83 currency transactions in excess of $10,000 (regular withdrawals to pay domestic employees in cu"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "What should independent BSA AML testing cover?",
+      "answer": "BSA/AML Compliance Program \u2014 Examination Procedures \u2022 Train employees to be aware of their responsibilities under the BSA regulations and internal policy guidelines. \u2022 Incorporate BSA compliance into job descriptions and performance evaluations of appropriate personnel. Independent Testing 5. Determine whether the BSA/AML testing (audit) is independent (i.e. . \uf0b7 Incorporate BSA compliance into the job descriptions and performance evaluations of bank personnel, as appropriate. \uf0b7 Train employees to be aware of their responsibilities under the BSA regulations and internal policy guidelines. The above list is not designed to be all-inclusive and should be tailored to reflect the bank\u2019s BSA/AML risk profile. Addition",
+      "citations": [
+        {
+          "page": 41,
+          "chunk_id": "p0041-c000-1fd3f6ffa7",
+          "score": 0.6527,
+          "section": "BSA/AML Compliance Program \u2014 Examination Procedures \u2022 Train employees to be aware of their responsibilities under the BSA regulations and internal policy guidelines"
+        },
+        {
+          "page": 35,
+          "chunk_id": "p0035-c001-72155847b8",
+          "score": 0.6205,
+          "section": "\uf0b7 Incorporate BSA compliance into the job descriptions and performance evaluations of bank personnel, as appropriate"
+        },
+        {
+          "page": 17,
+          "chunk_id": "p0017-c000-f67c0726bf",
+          "score": 0.6089,
+          "section": "Scoping and Planning \u2014 Overview developing a BSA/AML risk assessment"
+        },
+        {
+          "page": 17,
+          "chunk_id": "p0017-c002-9547445a67",
+          "score": 0.6033,
+          "section": "Refer to core overview and examination procedures, \u201cOffice of Foreign Assets Control,\u201d pages 147 to 159, for further guidance"
+        },
+        {
+          "page": 41,
+          "chunk_id": "p0041-c001-244147d306",
+          "score": 0.5871,
+          "section": "The independent test should address the following: \u2022 The overall adequacy and effectiveness of the BSA/AML compliance program, including policies, procedures, and processes"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "How should transaction testing samples be selected during a CIP examination?",
+      "answer": "Customer Identification Program \u2014 Examination Procedures Transaction Testing 7. On the basis of a risk assessment, prior examination reports, and a review of the bank\u2019s audit findings, select a sample of new accounts opened since the most recent examination to review for compliance with the bank\u2019s CIP. The sample should include a cross-section of accounts (e . \u2022 Documentation of attendance records and training materials. \u2022 Coverage of bank policies, procedures, processes, and new rules and regulations. \u2022 Coverage of different forms of money laundering and terrorist financing as it relates to identification and examples of suspicious activity. \u2022 Penalties for noncompliance with internal policies and regulatory re",
+      "citations": [
+        {
+          "page": 61,
+          "chunk_id": "p0061-c000-f085e9d913",
+          "score": 0.5016,
+          "section": "Customer Identification Program \u2014 Examination Procedures Transaction Testing 7"
+        },
+        {
+          "page": 43,
+          "chunk_id": "p0043-c001-5106b009f5",
+          "score": 0.6608,
+          "section": "\u2022 Documentation of attendance records and training materials"
+        },
+        {
+          "page": 18,
+          "chunk_id": "p0018-c001-4c4e5c6203",
+          "score": 0.6257,
+          "section": "Transaction Testing Examiners perform transaction testing to evaluate the adequacy of the bank\u2019s compliance with regulatory requirements, determine the effectiveness of its policie"
+        },
+        {
+          "page": 63,
+          "chunk_id": "p0063-c000-e15d076f0a",
+          "score": 0.5854,
+          "section": "Customer Identification Program \u2014 Examination Procedures 14"
+        },
+        {
+          "page": 147,
+          "chunk_id": "p0147-c001-a6e7533eda",
+          "score": 0.5816,
+          "section": "Transaction Testing 3"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "What is structuring and why is it prohibited?",
+      "answer": ". \uf0b7 Structure, as defined above, or attempt to structure or assist in structuring, any transaction with one or more banks. The definition of structuring, as set forth in 31 CFR 103.11(gg) (which was implemented before a USA PATRIOT Act provision extended the prohibition on structuring to geographic targeting orders and BSA recordkeeping requirements), states Appendix G: Structuring Appendix G: Structuring Structuring transactions to evade BSA reporting and certain recordkeeping requirements can result in civil and criminal penalties under the BSA. Under the BSA (31 USC 5324), no person shall, for the purpose of evading the CTR or a geographic targeting order reporting requirement, or certain BSA recordkeeping re",
+      "citations": [
+        {
+          "page": 361,
+          "chunk_id": "p0361-c001-d92757eac2",
+          "score": 0.5291,
+          "section": "\uf0b7 Structure, as defined above, or attempt to structure or assist in structuring, any transaction with one or more banks"
+        },
+        {
+          "page": 361,
+          "chunk_id": "p0361-c000-b51ebac404",
+          "score": 0.4766,
+          "section": "Appendix G: Structuring Appendix G: Structuring Structuring transactions to evade BSA reporting and certain recordkeeping requirements can result in civil and criminal penalties un"
+        },
+        {
+          "page": 13,
+          "chunk_id": "p0013-c001-3fafce9f3d",
+          "score": 0.3796,
+          "section": "The first and most vulnerable stage of laundering money is placement"
+        },
+        {
+          "page": 268,
+          "chunk_id": "p0268-c002-c201636ec5",
+          "score": 0.3293,
+          "section": "\uf0b7 Requiring dual signatures on general ledger tickets"
+        },
+        {
+          "page": 200,
+          "chunk_id": "p0200-c002-657239f595",
+          "score": 0.3084,
+          "section": "\uf0b7 Limits or restrictions on transaction types and amounts (e"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "What information must banks record when customers purchase monetary instruments with currency?",
+      "answer": ". This requirement applies whether the transaction is conducted in accordance with a bank\u2019s established policy or at the request of the customer. Generally, when a bank sells monetary instruments to deposit accountholders, the bank will already maintain most of the information required by 31 CFR 103.29 in the normal course of its business. Recordkeeping and . Once converted from currency, criminals typically deposit these instruments in accounts with other banks to facilitate the movement of funds through the payment system. In many cases, the persons involved do not have an account with the bank from which the instruments are purchased. Purchaser Verification Under 31 CFR 103.29 banks are required to verify th",
+      "citations": [
+        {
+          "page": 108,
+          "chunk_id": "p0108-c001-af6677466a",
+          "score": 0.764,
+          "section": "This requirement applies whether the transaction is conducted in accordance with a bank\u2019s established policy or at the request of the customer"
+        },
+        {
+          "page": 107,
+          "chunk_id": "p0107-c001-237f9eaa60",
+          "score": 0.6954,
+          "section": "Once converted from currency, criminals typically deposit these instruments in accounts with other banks to facilitate the movement of funds through the payment system"
+        },
+        {
+          "page": 110,
+          "chunk_id": "p0110-c000-ad9988b1bb",
+          "score": 0.7581,
+          "section": "Purchase and Sale of Monetary Instruments Recordkeeping \u2014 Examination Procedures Examination Procedures Purchase and Sale of Monetary Instruments Recordkeeping Objective"
+        },
+        {
+          "page": 107,
+          "chunk_id": "p0107-c000-8a7585abf0",
+          "score": 0.734,
+          "section": "Purchase and Sale of Monetary Instruments Recordkeeping \u2014 Overview Purchase and Sale of Monetary Instruments Recordkeeping \u2014 Overview Objective"
+        },
+        {
+          "page": 108,
+          "chunk_id": "p0108-c000-bb732aa341",
+          "score": 0.7212,
+          "section": "Purchase and Sale of Monetary Instruments Recordkeeping \u2014 Overview Contemporaneous Purchases Contemporaneous purchases of the same or different types of instruments totaling $3,000"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "What controls should banks use to manage suspicious activity alerts?",
+      "answer": "Suspicious Activity Reporting \u2014 Overview The authority to establish or change expected activity profiles should be clearly defined and should generally require the approval of the BSA compliance officer or senior management. Controls should ensure limited access to the monitoring system. Management should document or be able to explain filtering criteria, th . Proper monitoring and reporting processes are essential to ensuring that the bank has an adequate and effective BSA compliance program. Appropriate policies, procedures, and processes should be in place to monitor and identify unusual activity. The sophistication of monitoring systems should be dictated by the bank\u2019s risk profile, with particular emphasis",
+      "citations": [
+        {
+          "page": 75,
+          "chunk_id": "p0075-c000-4e0708ec43",
+          "score": 0.8333,
+          "section": "Suspicious Activity Reporting \u2014 Overview The authority to establish or change expected activity profiles should be clearly defined and should generally require the approval of the "
+        },
+        {
+          "page": 69,
+          "chunk_id": "p0069-c002-e508039cb0",
+          "score": 0.6928,
+          "section": "Proper monitoring and reporting processes are essential to ensuring that the bank has an adequate and effective BSA compliance program"
+        },
+        {
+          "page": 70,
+          "chunk_id": "p0070-c001-12e34acf93",
+          "score": 0.6758,
+          "section": "Identification of Unusual Activity Banks use a number of methods to identify potentially suspicious activity, including but not limited to activity identified by employees during d"
+        },
+        {
+          "page": 42,
+          "chunk_id": "p0042-c000-d1c432f42b",
+          "score": 0.6751,
+          "section": "BSA/AML Compliance Program \u2014 Examination Procedures \u2022 Tracking of previously identified issues and deficiencies and verification that they have been corrected by management"
+        },
+        {
+          "page": 83,
+          "chunk_id": "p0083-c001-b9b99aaae0",
+          "score": 0.6708,
+          "section": "Determine whether the system\u2019s filtering criteria are reasonable"
+        }
+      ],
+      "grounded": true
+    },
+    {
+      "question": "How long must required BSA records be retained?",
+      "answer": "Appendix P: BSA Record Retention Requirements Appendix P: BSA Record Retention Requirements This appendix is provided as a summary listing. For comprehensive and current BSA record retention requirements, refer to U.S. Treasury/FinCEN regulations found at 31 CFR 103. These BSA record retention requirements are independent of and in addition to record retenti Appendix P: BSA Record Retention Requirements \uf0b7 A description of the bank\u2019s resolution of any substantive discrepancy discovered when verifying the identifying information obtained. A bank must retain the identifying information about a customer for a period of five years after the date the account is closed, or in the case of credit card accounts, five year",
+      "citations": [
+        {
+          "page": 396,
+          "chunk_id": "p0396-c000-20735a2799",
+          "score": 0.7974,
+          "section": "Appendix P: BSA Record Retention Requirements Appendix P: BSA Record Retention Requirements This appendix is provided as a summary listing"
+        },
+        {
+          "page": 401,
+          "chunk_id": "p0401-c000-f8f326aa59",
+          "score": 0.7159,
+          "section": "Appendix P: BSA Record Retention Requirements \uf0b7 A description of the bank\u2019s resolution of any substantive discrepancy discovered when verifying the identifying information obtained"
+        },
+        {
+          "page": 158,
+          "chunk_id": "p0158-c002-a499808884",
+          "score": 0.6,
+          "section": "\u2022 The adequacy and timeliness of reports to OFAC"
+        },
+        {
+          "page": 62,
+          "chunk_id": "p0062-c002-03954908e3",
+          "score": 0.5726,
+          "section": "12"
+        },
+        {
+          "page": 57,
+          "chunk_id": "p0057-c001-9a67a51b34",
+          "score": 0.5642,
+          "section": "\uf0b7 When the bank should file a SAR in accordance with applicable law and regulation"
+        }
+      ],
+      "grounded": true
+    }
+  ]
+}

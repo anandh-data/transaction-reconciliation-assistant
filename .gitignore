@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.local/
+data/source/*.pdf
+data/generated/*.parquet
+models/
+*.log
+!evidence/logs/*.log
