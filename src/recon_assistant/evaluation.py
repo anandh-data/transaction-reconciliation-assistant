@@ -13,7 +13,7 @@ def evaluate_cases(cases: list[dict], retrieve, destination: Path) -> dict:
         rows.append({
             "question_id": case["question_id"], "question": case["question"],
             "expected_pages": case["expected_pages"], "retrieved_pages": pages,
-            "hit_at_5": bool(ranks), "reciprocal_rank": 0 if not ranks else 1 / min(ranks),
+            "hit_at_5": any(rank <= 5 for rank in ranks), "reciprocal_rank": 0 if not ranks else 1 / min(ranks),
         })
     payload = {
         "questions": len(rows),
