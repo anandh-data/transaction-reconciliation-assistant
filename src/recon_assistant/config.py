@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import yaml
+from psycopg2.extensions import make_dsn
 
 
 @dataclass(frozen=True)
@@ -31,12 +32,12 @@ class Settings:
 
 def load_settings(root: Path) -> Settings:
     raw = yaml.safe_load((root / "config/pipeline.yml").read_text())
-    password = os.getenv("POSTGRES_PASSWORD", "change_me")
-    dsn = (
-        f"host={os.getenv('POSTGRES_HOST','127.0.0.1')} "
-        f"port={os.getenv('POSTGRES_PORT','55433')} "
-        f"dbname={os.getenv('POSTGRES_DB','reconciliation')} "
-        f"user={os.getenv('POSTGRES_USER','reconciliation')} password={password}"
+    dsn = make_dsn(
+        host=os.getenv("POSTGRES_HOST", "127.0.0.1"),
+        port=os.getenv("POSTGRES_PORT", "55433"),
+        dbname=os.getenv("POSTGRES_DB", "reconciliation"),
+        user=os.getenv("POSTGRES_USER", "reconciliation"),
+        password=os.getenv("POSTGRES_PASSWORD", "change_me"),
     )
     return Settings(
         root=root,
