@@ -27,3 +27,26 @@ def test_generation_evidence_gate_abstains_without_loading_model():
     weak = [SearchResult("c1", 10, "Section", "Marginal context", 0.50)]
     response = generator.answer("question", weak, 0.25, 0.52)
     assert response["grounded"] is False
+
+
+def test_domain_expansion_handles_case_and_punctuation():
+    query = "Review (cip), ctr; and bSa/aml."
+    expanded = expand_domain_terms(query)
+    assert expanded.startswith(query)
+    for phrase in (
+        "Customer Identification Program",
+        "Currency Transaction Report",
+        "Bank Secrecy Act",
+        "Anti Money Laundering",
+    ):
+        assert phrase in expanded
+
+
+def test_domain_expansion_adds_each_phrase_only_once():
+    expanded = expand_domain_terms("SAR, sar and (SAR)")
+    assert expanded.count("Suspicious Activity Report") == 1
+
+
+def test_domain_expansion_does_not_match_parts_of_words():
+    query = "Review recipient, CTR123, SAR_archive and AML2 records."
+    assert expand_domain_terms(query) == query

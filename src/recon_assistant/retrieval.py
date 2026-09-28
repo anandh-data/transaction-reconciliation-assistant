@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import re
 
 import psycopg2
 from pgvector.psycopg2 import register_vector
@@ -26,7 +27,7 @@ DOMAIN_EXPANSIONS = {
 
 def expand_domain_terms(query: str) -> str:
     expanded = query
-    tokens = set(query.replace("?", "").replace("/", " ").split())
+    tokens = set(re.findall(r"\b\w+\b", query.upper()))
     for abbreviation, phrase in DOMAIN_EXPANSIONS.items():
         if abbreviation in tokens:
             expanded = f"{expanded} {phrase}"
