@@ -7,3 +7,5 @@ The verified retrieval run achieved 10/10 Hit@5 and 0.85 mean reciprocal rank ov
 Reconciliation returned all 275 injected exceptions in their expected classes and 24,750 matches. The committed CSV contains every exception for inspection.
 
 Unit tests cover deterministic generation, exception counts, acronym expansion, refusal behavior, and evaluation calculations. The CI workflow runs those tests on each push and pull request.
+
+Evaluation requires at least one labeled question. An empty case list raises `ValueError` before retrieval or report writing; an existing report is left unchanged.

@@ -5,6 +5,8 @@ from pathlib import Path
 
 
 def evaluate_cases(cases: list[dict], retrieve, destination: Path) -> dict:
+    if not cases:
+        raise ValueError("Provide at least one evaluation case.")
     rows = []
     for case in cases:
         results = retrieve(case["question"])

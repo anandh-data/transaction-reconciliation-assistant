@@ -1,5 +1,8 @@
 import json
 from pathlib import Path
+from unittest.mock import Mock
+
+import pytest
 
 from recon_assistant.evaluation import evaluate_cases
 from recon_assistant.retrieval import SearchResult
@@ -36,3 +39,21 @@ def test_hit_at_5_with_no_retrieved_results(tmp_path: Path):
     payload = evaluate_cases(cases, lambda _: [], tmp_path / "evaluation.json")
     assert payload["hit_rate_at_5"] == 0
     assert payload["mean_reciprocal_rank"] == 0
+
+
+@pytest.mark.parametrize("existing_report", [False, True])
+def test_empty_evaluation_rejects_input_without_changing_report(tmp_path, existing_report):
+    destination = tmp_path / "evaluation.json"
+    original = '{"previous": "result"}\n'
+    if existing_report:
+        destination.write_text(original)
+    retrieve = Mock()
+
+    with pytest.raises(ValueError, match="at least one evaluation case"):
+        evaluate_cases([], retrieve, destination)
+
+    retrieve.assert_not_called()
+    if existing_report:
+        assert destination.read_text() == original
+    else:
+        assert not destination.exists()
